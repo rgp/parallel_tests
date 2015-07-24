@@ -1,3 +1,7 @@
+**This fork does not check for pending migrations**
+=============================================
+
+
 Speedup Test::Unit + RSpec + Cucumber + Spinach by running parallel on multiple CPU cores.<br/>
 ParallelTests splits tests into even groups (by number of lines or runtime) and runs each group in a single process with its own database.
 
